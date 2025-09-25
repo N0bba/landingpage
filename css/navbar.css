@@ -27,6 +27,20 @@ header nav {
     color: black;
     
 }
+.search-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.search-btn {
+    text-decoration: none;
+    border: none;
+    padding: 8px;
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
 .main-nav a:hover {
     color:lightgray;
 }
@@ -37,8 +51,7 @@ header nav {
     background-color: #FAFAFA;
 }
 .login-btn:hover {
-    background-color: lightgray;
-    transition: all ;
-    border-radius: 16px;
+    color:lightgray;
+    cursor: pointer;
 }
 
